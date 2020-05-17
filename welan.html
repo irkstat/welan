@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Welan</title>
+</head>
+
+<body>
+    <header class="header_welan">
+        <div class="top_header">
+            <div class="menu_open_new_save">
+                <img class="new_file_top_header" src="img/top_header/new-file-2.svg" alt="Новый файл">
+                <img class="new_file_top_header" src="img/top_header/open_folder_icon_132779.svg" alt="Новый файл">
+                <img class="new_file_top_header" src="img/top_header/saveas_5165.png" alt="Новый файл">
+            </div>
+            <img class="close_file_top_header" src="img/top_header/close.svg" alt="Новый файл">
+        </div>
+
+        <!--Меню вкладок================================-->
+        <div class="box_menu">
+            <div class="tab_menu is_active" data-tab-name="tab_1">Навигатор</div>
+            <div class="tab_menu" data-tab-name="tab_2">Каталог ПВО</div>
+            <div class="tab_menu" data-tab-name="tab_3">Расчеты</div>
+            <div class="tab_menu" data-tab-name="tab_4">Полевое кодирование</div>
+            <div class="tab_menu" data-tab-name="tab_5">Оформление</div>
+            <div class="tab_menu" data-tab-name="tab_6">Вид</div>
+            <div class="tab_menu" data-tab-name="tab_7">Помощь</div>
+        </div>
+
+        <!--Вкладка Навигатор===========================-->
+        <div class="tabs_content tab_1 is_active">
+            <div class="wrapper_directory_folder">
+                <div class="directory_folder_name_data">
+                    <p class="name_directory_folder">Имя</p>
+                    <p class="date_type_size_directory_folder">Дата создания</p>
+                    <p class="date_type_size_directory_folder">Тип</p>
+                    <p class="date_type_size_directory_folder">Размер</p>
+                </div>
+
+                <div class="directory_folder_company">
+                    <img class="dir_folder_img_company" src="img/tabs/hard.ico" alt="Папка">
+                    <a href="#">ООО "ГеоТрастСервис"</a>
+                </div>
+
+                <div class="directory_folder">
+                    <img class="dir_folder_img" src="img/tabs/folder-open.svg" alt="Папка">
+                    <a href="#">Проект подстанции</a>
+                    <p class="date_type_size_directory_folder">10.07.2019</p>
+                    <p class="date_type_size_directory_folder">Папка с файлами</p>
+                    <p class="date_type_size_directory_folder">12 мб</p>
+                </div>
+                <div class="directory_folder">
+                    <img class="dir_folder_img" src="img/tabs/folder-open.svg" alt="Папка">
+                    <a href="#">Линейные изыскания</a>
+                    <p class="date_type_size_directory_folder">28.07.2019</p>
+                    <p class="date_type_size_directory_folder">Папка с файлами</p>
+                    <p class="date_type_size_directory_folder">398 мб</p>
+                </div>
+                <div class="directory_folder">
+                    <img class="dir_folder_img" src="img/tabs/folder-open.svg" alt="Папка">
+                    <a href="#">Топосъемка ООО "АлкоТраст"</a>
+                    <p class="date_type_size_directory_folder">07.08.2019</p>
+                    <p class="date_type_size_directory_folder">Папка пустая</p>
+                    <p class="date_type_size_directory_folder">0 мб</p>
+                </div>
+                <div class="directory_folder">
+                    <img class="dir_folder_img" src="img/tabs/folder-open.svg" alt="Папка">
+                    <a href="#">Гос. заказы</a>
+                    <p class="date_type_size_directory_folder">19.09.2019</p>
+                    <p class="date_type_size_directory_folder">Папка с файлами</p>
+                    <p class="date_type_size_directory_folder">598 мб</p>
+                </div>
+                <div class="directory_folder">
+                    <img class="dir_folder_img" src="img/tabs/folder-open.svg" alt="Папка">
+                    <a href="#">Нивелирование 2 класса ООО "Вибро-ГЭС"</a>
+                    <p class="date_type_size_directory_folder">21.10.2019</p>
+                    <p class="date_type_size_directory_folder">Папка с файлами</p>
+                    <p class="date_type_size_directory_folder">93 мб</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Вкладка Каталог ПВО=========================-->
+        <div class="tabs_content tab_2">
+            <div class="wrapper_directory_pvo">
+                <!--Исходные и вычисленные ПВО==============-->
+                <div class="catalog_pvo">
+                    <div class="сharacteristic_point_name">
+                        <p class="point_name">Имя пункта</p>
+                        <p class="point_name">X</p>
+                        <p class="point_name">Y</p>
+                        <p class="point_name">H</p>
+                        <!-- <p class="point_name">Тип XYH</p> -->
+                        <p class="point_name">Дата создания</p>
+                    </div>
+                    <div class="data_point_pvo">
+                        <form action="#" method="POST">
+                            <input type="text" name="point_name"><input type="number" name="point_x"><input
+                                type="number" name="point_y"><input type="number" name="point_h"><input type="date"
+                                name="point_date">
+                        </form>
+                    </div>
+                    <div class="data_point_pvo">
+                        <form action="#" method="POST">
+                            <input type="text" name="point_name"><input type="number" name="point_x"><input
+                                type="number" name="point_y"><input type="number" name="point_h"><input type="date"
+                                name="point_date">
+                        </form>
+                    </div>
+                </div>
+                <!--Схема ПВО===============================-->
+                <div class="scheme_pvo">
+                    <div class="scheme_name">Схема ПВО</div>
+                    <div class="scheme_data"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Вкладка Расчеты==========================-->
+        <div class="tabs_content tab_3">
+            Вкладка Расчеты
+        </div>
+
+        <!--Полевое Кодирование=========================-->
+        <div class="tabs_content tab_4">
+            Полевое Кодирование
+        </div>
+
+        <!--Вкладка Оформление==========================-->
+        <div class="tabs_content tab_5">
+            Вкладка Оформление
+        </div>
+
+        <!--Вкладка Вид=================================-->
+        <div class="tabs_content tab_6">
+            Вкладка Вид
+        </div>
+
+        <!--Вкладка помощь==============================-->
+        <div class="tabs_content tab_7">
+            Вкладка помощь
+        </div>
+    </header>
+
+    <script src="/js/tabs-menu.js"></script>
+</body>
+
+</html>

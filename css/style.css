@@ -1,0 +1,178 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_welan {
+  max-width: 2000px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  height: 100vh;
+}
+.header_welan .top_header {
+  height: 30px;
+  background: #c5c5c5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header_welan .top_header .menu_open_new_save .new_file_top_header {
+  height: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.header_welan .top_header .close_file_top_header {
+  height: 22px;
+  cursor: pointer;
+}
+.header_welan .box_menu {
+  display: flex;
+  height: 40px;
+  background: #e4e4e4;
+}
+.header_welan .box_menu .tab_menu {
+  background: #e4e4e4;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+.header_welan .box_menu .is_active {
+  border-color: white;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  background: #fafafa;
+}
+.header_welan .tabs_content {
+  display: none;
+  height: 100%;
+  background: #fafafa;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_name_data {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding-left: 45px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_name_data .name_directory_folder {
+  width: 450px;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_name_data .date_type_size_directory_folder {
+  width: 200px;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_company {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_company .dir_folder_img_company {
+  height: 35px;
+  margin-right: 15px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder_company a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid violet;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding-left: 45px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder .date_type_size_directory_folder {
+  width: 200px;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder .dir_folder_img {
+  height: 35px;
+  margin-right: 15px;
+}
+.header_welan .tabs_content .wrapper_directory_folder .directory_folder a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid gray;
+  width: 395px;
+}
+.header_welan .tabs_content .wrapper_directory_pvo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo {
+  border-right: 1px solid gray;
+  width: 50%;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo .сharacteristic_point_name {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo .сharacteristic_point_name .point_name {
+  width: 130px;
+  text-align: center;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo .data_point_pvo {
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  align-items: center;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo .data_point_pvo input {
+  width: 130px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .catalog_pvo .data_point_pvo input:focus {
+  outline: none;
+  background-color: #f7f7f7;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .scheme_pvo {
+  width: 50%;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .scheme_pvo .scheme_name {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.header_welan .tabs_content .wrapper_directory_pvo .scheme_pvo .scheme_data {
+  background: url(/img/tabs/scheme-pvo.png) no-repeat center;
+  background-size: cover;
+  height: calc(100% - 40px);
+}
+.header_welan .is_active {
+  display: block;
+}
